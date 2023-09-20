@@ -1,16 +1,13 @@
+import "./App.css";
+import LoginSignup from "./Components/LoginSignup/LoginSignup";
 
-import './App.css'
-import loginSignUpform from './components/LoginSignUP/loginSignUPform'
+
 function App() {
-  
-
   return (
-    <>
-       <div className="container">
-        <loginSignUpform/>
-       </div>
-    </>
-  )
+    <div className="container">
+     <LoginSignup/>
+    </div>
+  );
 }
 
-export default App
+export default App;

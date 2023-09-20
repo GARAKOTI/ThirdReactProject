@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500;800&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
 body{
-  height: 100%;
-  width: 100%;
-  background:linear-gradient(#646cff #242424);
+  height: 100vh;
+  background: linear-gradient(to bottom, #646cff, #242424);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
